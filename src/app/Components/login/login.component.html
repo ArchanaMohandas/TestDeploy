@@ -1,0 +1,12 @@
+<section ng-app="login" ng-controller="loginCtrl" ng-class="{shake: ui.shake }">
+	<form>
+		<h2>Login</h2>
+		<div ng-if="alert" class="info" ng-class="{error : alert.type == 'error', good: alert.type == 'good'}">
+			<!-- <p>{{ alert.message }}</p> -->
+        </div> 
+		<input ng-model="login" type="text" placeholder="Username" />
+		<input ng-model="pwd" type="password" placeholder="Password" />
+		<button ng-click="loginaction()">Log in</button>
+	</form>
+</section>
+	

@@ -1,0 +1,157 @@
+
+
+
+  <div class="site-toolbar">
+    <div class="inner-wrap clearfix">
+      <div class="notifications animated"><span>Amazing Product</span> Added to Cart!</div>
+    </div>
+  </div>
+
+  <div class="filter-grid">
+    <div class="inner-wrap">
+      <div class="filter-cell">
+        <select class="form-control">
+          <option value="*">Category</option>
+          <option value="fav">Favorites</option>
+        </select>
+      </div>
+      <div class="filter-cell">
+        <select class="form-control">
+          <option  value="*">Product Type</option>
+          <option value="square">Square</option>
+          <option value="circular">Circular</option>
+        </select>
+      </div>
+      <div class="filter-cell">
+        <select class="form-control" disabled="true">
+          <option>Price</option>
+        </select>
+      </div>
+      <div class="filter-cell">
+        <select class="form-control" disabled="true">
+          <option>Brand</option>
+        </select>
+      </div>
+    </div>
+  </div>
+
+  <div class="inner-wrap content-wrap">
+
+    <div class="product-grid">
+      <div class="grid-product square fav">
+        <div class="img-name camera"><h4>Camera</h4></div>
+        <p class="price">$3.99 <button class="add-to-cart js-add-to-cart btn">Add</button><p>
+      </div>
+      <div class="grid-product circular fav">
+        <div class="img-name watch"><h4>Watch</h4></div>
+        <p class="price">$5.99 <button class="add-to-cart js-add-to-cart btn">Add</button><p>
+      </div>
+      <div class="grid-product square">
+        <div class="img-name canoe"><h4>Canoe</h4></div>
+        <p class="price">$6.99 <button class="add-to-cart js-add-to-cart btn">Add</button><p>
+      </div>
+      <div class="grid-product">
+        <div class="img-name typewriter"><h4>Typewriter</h4></div>
+        <p class="price">$7.99 <button class="add-to-cart js-add-to-cart btn">Add</button><p>
+      </div>
+      <div class="grid-product square">
+        <div class="img-name canoe"><h4>Canoe</h4></div>
+        <p class="price">$6.99 <button class="add-to-cart js-add-to-cart btn">Add</button><p>
+      </div>
+      <div class="grid-product circular">
+        <div class="img-name typewriter"><h4>Typewriter</h4></div>
+        <p class="price">$7.99 <button class="add-to-cart js-add-to-cart btn">Add</button><p>
+      </div>
+      <div class="grid-product">
+        <div class="img-name camera"><h4>Camera</h4></div>
+        <p class="price">$3.99 <button class="add-to-cart js-add-to-cart btn">Add</button><p>
+      </div>
+      <div class="grid-product fav">
+        <div class="img-name watch"><h4>Watch</h4></div>
+        <p class="price">$5.99 <button class="add-to-cart js-add-to-cart btn">Add</button><p>
+      </div>
+      <div class="grid-product square">
+        <div class="img-name typewriter"><h4>Typewriter</h4></div>
+        <p class="price">$7.99 <button class="add-to-cart js-add-to-cart btn">Add</button><p>
+      </div>
+      <div class="grid-product">
+        <div class="img-name camera"><h4>Camera</h4></div>
+        <p class="price">$3.99 <button class="add-to-cart js-add-to-cart btn">Add</button><p>
+      </div>
+      <div class="grid-product circular square fav">
+        <div class="img-name canoe"><h4>Canoe</h4></div>
+        <p class="price">$6.99 <button class="add-to-cart js-add-to-cart btn">Add</button><p>
+      </div>
+      <div class="grid-product fav">
+        <div class="img-name watch"><h4>Watch</h4></div>
+        <p class="price">$5.99 <button class="add-to-cart js-add-to-cart btn">Add</button><p>
+      </div>
+      <div class="grid-product tasty">
+        <div class="img-name typewriter"><h4>Typewriter</h4></div>
+        <p class="price">$7.99 <button class="add-to-cart js-add-to-cart btn">Add</button><p>
+      </div>
+      <div class="grid-product circular">
+        <div class="img-name watch"><h4>Watch</h4></div>
+        <p class="price">$5.99 <button class="add-to-cart js-add-to-cart btn">Add</button><p>
+      </div>
+      <div class="grid-product fav">
+        <div class="img-name camera"><h4>Camera</h4></div>
+        <p class="price">$3.99 <button class="add-to-cart js-add-to-cart btn">Add</button><p>
+      </div>
+      <div class="grid-product square">
+        <div class="img-name canoe"><h4>Canoe</h4></div>
+        <p class="price">$6.99 <button class="add-to-cart js-add-to-cart btn">Add</button><p>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="sticky"></div>
+
+
+
+<footer class="site-footer">
+  <div class="inner-wrap">
+    
+    Footer Info
+
+  </div>
+</footer>
+
+<div class="cart">
+  
+  <div class="inner-wrap">
+    <h2>Your Cart</h2>
+    
+    <table class="cart-table">
+      <thead>
+        <tr>
+          <th class="product-remove">Remove Items</th>
+          <th class="product-name">Product</th>
+          <th class="product-price">Price</th>
+          <th class="product-quantity">Quantity</th>
+          <th class="product-line-total">Subtotal</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr id="product-camera">
+          <td><button type="button" class="product-remove" data-id="product-camera"><i class="fa fa-times"></i></button></td>
+          <td>Camera</td>
+          <td class="product-price" data-price="3.99">3.99</td>
+          <td class="product-quantity">
+            <input type="number" pattern="\d*" step="1" min="1" max="5" value="1" data-id="product-camera">
+            <button class="plus js-number-control">
+              <i class="fa fa-plus-square"></i>
+            </button>
+            <button class="minus js-number-control">
+              <i class="fa fa-minus-square"></i>
+            </button>
+          </td>
+          <td class="product-line-total" id="product-camera-total" data-line-total="3.99">3.99</td>
+        </tr>
+      </tbody>
+    </table>
+    
+  </div>
+
+</div>
